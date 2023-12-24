@@ -30,7 +30,7 @@
 1. Склонируйте себе репозиторий:
 
 ```
-git clone git@github.com:lisichkin1/L2-Wildberries_guess_the_number.git
+git clone git@github.com:lisichkin1/L2-Wildberries_tetris.git
 ```
 
 2. Установите зависимости:
