@@ -13,7 +13,7 @@ let assetField = [];
 //заполняем матрицу нулями и создаем соответвующее количество дивов
 export const buildField = () => {
   const tetrisContainer = document.querySelector('.teris__container');
-
+  tetrisContainer.innerHTML = '';
   for (let i = 0; i < PLAYING_FIELD_ROW; i++) {
     assetField[i] = [];
     for (let j = 0; j < PLAYING_FIELD_COLUMN; j++) {

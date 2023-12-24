@@ -23,6 +23,32 @@
 
 ### Запуск
 
-Игра доступна по ссылке: https://lisichkin1.github.io/L2-Wildberries_tetris/
+Игра доступна по [ссылке](https://lisichkin1.github.io/L2-Wildberries_tetris/)
 
-Для локального запуска необходимо установить расширение Live Server и через него запустить index.html
+Для локального запуска выполните следующие шаги:
+
+1. Склонируйте себе репозиторий:
+
+```
+git clone git@github.com:lisichkin1/L2-Wildberries_guess_the_number.git
+```
+
+2. Установите зависимости:
+
+```
+npm install
+```
+
+2. Запустите проект:
+
+```
+npm run start
+```
+
+### Демо игры
+
+![2023-12-25_00-58-59](https://github.com/lisichkin1/L2-Wildberries_guess_the_number/assets/91782961/a907afbb-999f-4c00-a9a4-7929ae95bd11)
+
+### Будет добавлено
+
+В будущих релизах будет добавлено управление с телефона

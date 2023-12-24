@@ -7,16 +7,9 @@ import {
   tetraminoRight,
   tetraminoRotate,
 } from './tetris.js';
-import {
-  PLAYING_FIELD_COLUMN,
-  PLAYING_FIELD_ROW,
-  TETRAMINO_NAMES,
-  TETRAMINO_FORMS,
-  getRandomTetramino,
-  positionIndex,
-  rotateForm,
-} from './utils.js';
-
+import { PLAYING_FIELD_COLUMN, PLAYING_FIELD_ROW, positionIndex } from './utils.js';
+import '../assets/styles/style.css';
+const newGame = document.querySelector('.new_game');
 function startGame() {
   let time;
   let gameOver = false;
@@ -175,5 +168,7 @@ function startGame() {
   downMove();
   setOnKeyPress();
 }
-
+newGame.addEventListener('click', () => {
+  startGame();
+});
 startGame();

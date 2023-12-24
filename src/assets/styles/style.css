@@ -73,3 +73,10 @@
   font-size: 20px;
   font-weight: bold;
 }
+.new_game {
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
