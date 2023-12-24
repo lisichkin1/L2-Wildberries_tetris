@@ -46,8 +46,9 @@ npm run start
 ```
 
 ### Демо игры
+![2023-12-25_03-03-35](https://github.com/lisichkin1/L2-Wildberries_tetris/assets/91782961/9a006d27-7db3-4947-881b-48fe159bf3df)
 
-![2023-12-25_00-58-59](https://github.com/lisichkin1/L2-Wildberries_guess_the_number/assets/91782961/a907afbb-999f-4c00-a9a4-7929ae95bd11)
+
 
 ### Будет добавлено
 
